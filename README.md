@@ -2,6 +2,11 @@
 
 Newrl Mainnet Kurulum
 
+Öncelikle mainnet için testnette çalıştırdığınız cüzdanınız seçilmiş mi onu kontrol edin : https://cdn.discordapp.com/attachments/1022068099748466718/1036891927859175464/Newrl_Testnet_OG_Token_Wallets.pdf
+
+
+
+
 Sıfırdan kurulum yapıyorsanız bu makaleden kurun : https://github.com/molla202/newrl-mainnet/blob/main/README.md daha sonra cüzdan değiştirme kısmını tekrar buraya gelip devam edin.
 
 Daha önce testnet kurulumu yaptıysanız onu silmeden mainnete geçebilirsiniz fakat mainnet kurduğunuzda yeni bir cüzdan verecek onu eski testnette kullandığınız cüzdan ile değiştirmeniz gerekiyor sırasıyla gösteriyorum.
