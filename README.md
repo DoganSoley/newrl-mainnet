@@ -35,7 +35,7 @@ Bağlandıktan sonra sırasıyla newrl dosyasına giriyoruz daha sonra data_main
 
 ![2](https://user-images.githubusercontent.com/110679236/199261739-4c17c4d2-2de0-47b4-b4b1-85e55848f769.PNG)
 
-auth.json dosyasını bulup açıyoruz.(eğer bu dosya sizde görünmüyorsa CTRL + ALT + H yaparak gizli klasörleri gösterin)
+auth.json dosyasını bulup açıyoruz.(eğer bu dosya sizde görünmüyorsa CTRL + ALT + H yaparak gizli klasörleri gösterin yeni kurulum yapıp cüzdan değiştirmek için girdiyseniz .auth.json dosyası hiç olmayabilir bu dosyayı kendiniz atın newrl wallet sitesine giderek cüzdanı download edin wallet.json olarak indirir adını .auth olarak değiştirip mainnet_data dosyasının içine atın)
 
 Açtığınızda mevcut cüzdanın public keyini görürsünüz onu eski testnette kullandığınız cüzdanın public keyi ile değiştirip kaydedip kapatıyoruz.
 
