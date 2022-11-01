@@ -1,4 +1,4 @@
-# newrl-mainnet
+# NEWRL NODE MAİNNETE ÇEVİRME
 
 Newrl Mainnet Kurulum
 
