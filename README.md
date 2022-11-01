@@ -12,17 +12,19 @@ Sıfırdan kurulum yapıyorsanız bu makaleden kurun : https://github.com/molla2
 Daha önce testnet kurulumu yaptıysanız onu silmeden mainnete geçebilirsiniz fakat mainnet kurduğunuzda yeni bir cüzdan verecek onu eski testnette kullandığınız cüzdan ile değiştirmeniz gerekiyor sırasıyla gösteriyorum.
 
 İlk önce sunucuyu açıp ;
-
+```
 cd newrl
-
+```
+```
 screen -X -S newrl kill
-
+```
+```
 scripts/install.sh mainnet
-
+```
 Yaptıktan sonra cüzdanı kontrol etmek için ;
-
+```
 python3 scripts/show_wallet.py
-
+```
 Yazıyoruz ve çıkan yere mainnet yazıp enter yapıyoruz daha sonra y diyoruz ve mainnet cüzdanını görüyoruz burda sizin eski kullandığınız cüzdan olmayacaktır bunu eskisiyle değiştirmeniz gerekiyor bunun için winscp programı kullanmanız gerekiyor.
 
 winscp kurduktan sonra bu şekilde sunucumuzun ip kullanıcı adı ve şifre yazarak bağlanıyoruz
@@ -38,11 +40,12 @@ auth.json dosyasını bulup açıyoruz.(eğer bu dosya sizde görünmüyorsa CTR
 Açtığınızda mevcut cüzdanın public keyini görürsünüz onu eski testnette kullandığınız cüzdanın public keyi ile değiştirip kaydedip kapatıyoruz.
 
 Daha sonra tekrar node içerisine dönüp mainnet için nodeyi çalıştıralım.
-
+```
 screen -S newrl
-
+```
+```
 scripts/start.sh mainnet
-
+```
 Loglar akmaya başlayacak CTRL + A + D ile screenden çıkabilirsiniz.
 
 Kurulum bu şekilde henüz OG tokenleri gönderilmedi gönderildiği zaman https://wallet.newrl.net/ üzerinden stake edip validatör olacağız şuanlık mainnet node kurulumu bu şekilde.
