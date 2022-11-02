@@ -25,7 +25,7 @@ Yaptıktan sonra cüzdanı kontrol etmek için ;
 ```
 python3 scripts/show_wallet.py
 ```
-Yazıyoruz ve çıkan yere mainnet yazıp enter yapıyoruz daha sonra y diyoruz ve mainnet cüzdanını görüyoruz burda sizin eski kullandığınız cüzdan olmayacaktır bunu eskisiyle değiştirmeniz gerekiyor ya da "No such file or directory" hatası da alabilirsiniz önemli değil cüzdanı indirip data_mainnet'e atmanız lazım bunun için winscp programı kullanmanız gerekiyor.
+Yazıyoruz ve çıkan yere mainnet yazıp enter yapıyoruz daha sonra y diyoruz ve mainnet cüzdanını görüyoruz burda sizin eski kullandığınız cüzdan olmayacaktır bunu eskisiyle değiştirmeniz gerekiyor ya da "No such file or directory" hatası da alabilirsiniz önemli değil testnette kullandığınız cüzdanı indirip data_mainnet'e atmanız lazım bunun için winscp programı kullanmanız gerekiyor.
 
 winscp kurduktan sonra bu şekilde sunucumuzun ip kullanıcı adı ve şifre yazarak bağlanıyoruz
 
