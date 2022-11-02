@@ -55,3 +55,22 @@ sudo ufw allow 8456
 sudo ufw allow 8456/tcp
 ```
 Kurulum bu şekilde henüz OG tokenleri gönderilmedi gönderildiği zaman https://wallet.newrl.net/ üzerinden stake edip validatör olacağız şuanlık mainnet node kurulumu bu şekilde.
+
+
+Ekip restart veya güncelleme yapın derse sırasıyla bu kodları girin ;
+
+```
+cd newrl
+```
+```
+screen -X -S newrl kill
+```
+```
+scripts/install.sh mainnet
+```
+```
+screen -S newrl
+```
+```
+scripts/start.sh mainnet
+```
