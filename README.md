@@ -48,7 +48,7 @@ scripts/start.sh mainnet
 ```
 Loglar akmaya başlayacak CTRL + A + D ile screenden çıkabilirsiniz.
 
-En son tekrar attığımız cüzdanı node içerisinde teyit edelim tekrar ;
+En son attığımız cüzdanı node içerisinde teyit edelim tekrar ;
 ```
 python3 scripts/show_wallet.py
 ```
