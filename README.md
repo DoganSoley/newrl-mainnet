@@ -51,7 +51,11 @@ Loglar akmaya başlayacak CTRL + A + D ile screenden çıkabilirsiniz.
 Loglar eğer yeşil akmıyorsa portlarınız kapalıdır en son portları da açın ;
 ```
 sudo ufw enable
+```
+```
 sudo ufw allow 8456
+```
+```
 sudo ufw allow 8456/tcp
 ```
 Kurulum bu şekilde henüz OG tokenleri gönderilmedi gönderildiği zaman https://wallet.newrl.net/ üzerinden stake edip validatör olacağız şuanlık mainnet node kurulumu bu şekilde.
