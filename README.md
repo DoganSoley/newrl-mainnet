@@ -48,6 +48,12 @@ scripts/start.sh mainnet
 ```
 Loglar akmaya başlayacak CTRL + A + D ile screenden çıkabilirsiniz.
 
+En son tekrar attığımız cüzdanı node içerisinde teyit edelim tekrar ;
+```
+python3 scripts/show_wallet.py
+```
+Yazdıktan sonra mainnet yazıp enterlayın tekrar y yapın karşınıza çıkan public keyler testnette kullandığınız cüzdan ile aynıysa tamamdır.
+
 Loglar eğer yeşil akmıyorsa portlarınız kapalıdır en son portları da açın ;
 ```
 sudo ufw enable
